@@ -1,0 +1,21 @@
+.person{
+    margin: 20px auto;
+    width: 80%;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 0 50px rgba(156, 182, 181,.7);
+    border-radius: 1rem;
+    /* text-align: center; */
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.person:hover{
+    box-shadow: 0 0 50px rgba(156, 182, 181,.9);
+    transform: scale(1.1);
+}
+
+.label {
+    font-weight: bold;
+    color: rgb(49, 141, 138);
+}

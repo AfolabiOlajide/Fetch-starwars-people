@@ -1,0 +1,38 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30rem;
+    padding: 1.5rem;
+    background: rgb(27, 32, 32);
+    border-radius: 3rem;
+    box-shadow: 0 0 50px rgba(156, 182, 181,.7);
+}
+
+.body button{
+    outline: none;
+    border: none;
+    background: rgb(78, 255, 249);
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 50px rgba(156, 182, 181,.7);
+    transition: .5s all ease;
+    margin-bottom: 20px;
+}
+
+.body button:hover {
+    transform: scale(1.2);
+}
+
+.error{
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 0 50px rgba(156, 182, 181,.7);
+    border-radius: 1rem;
+    text-align: center;
+}
